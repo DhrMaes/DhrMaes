@@ -8,3 +8,12 @@ D:\Arne\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\bin
 D:\Arne\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.csproj.CopyComplete
 D:\Arne\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.dll
 D:\Arne\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.pdb
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.csprojAssemblyReference.cache
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.csproj.CoreCompileInputs.cache
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.dll
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.pdb
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\bin\Debug\NetPrograssTrackerExtension.dll
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\bin\Debug\NetPrograssTrackerExtension.pdb
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\bin\Debug\NetPT.pdb
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\bin\Debug\NetPT.xml
+D:\maesa\Documents\GitHub\DhrMaes\DhrMaesSolution\NetPrograssTrackerExtension\obj\Debug\NetPrograssTrackerExtension.csproj.CopyComplete
