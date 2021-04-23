@@ -21,9 +21,15 @@
     <ClCompile Include="Frames.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Frames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

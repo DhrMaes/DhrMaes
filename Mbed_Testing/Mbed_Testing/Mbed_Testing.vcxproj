@@ -141,8 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Mbed_Testing.cpp" />
     <ClCompile Include="Frames.cpp" />
+    <ClCompile Include="Extensions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Extensions.h" />
     <ClInclude Include="Frames.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
