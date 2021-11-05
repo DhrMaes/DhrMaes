@@ -1,3 +1,3 @@
 ﻿  Mbed_Testing.cpp
-D:\Arne\Documents\GitHub\DhrMaes\Mbed_Testing\Mbed_Testing\Mbed_Testing.cpp(118,30): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Mbed_Testing.vcxproj -> D:\Arne\Documents\GitHub\DhrMaes\Mbed_Testing\Debug\Mbed_Testing.exe
+D:\maesa\Documents\GitHub\DhrMaes\Mbed_Testing\Mbed_Testing\Mbed_Testing.cpp(123,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Mbed_Testing.vcxproj -> D:\maesa\Documents\GitHub\DhrMaes\Mbed_Testing\Debug\Mbed_Testing.exe

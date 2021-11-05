@@ -12,6 +12,11 @@ unsigned char MOD(unsigned char* list, int length, int mod);
 
 int main()
 {
+    int x = 0;
+    x |= (1 << 8)|(1 << 7);
+    std::cout << std::hex << x << "\n";
+    std::cout << std::dec << x << "\n";
+
     unsigned char MODTest1[] = { 0x68, 0x01, 0x01 };
     unsigned char MODResult1 = MOD(MODTest1, 3, 256);
     std::cout << std::hex << MODResult1 << "\n";

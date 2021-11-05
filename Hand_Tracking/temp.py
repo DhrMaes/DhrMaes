@@ -11,7 +11,7 @@ class HandTracker():
 
         self.mpHands = mp.solutions.hands
         self.hands = self.mpHands.Hands(self.mode, self.maxHands, self.detectionLvl, self.trackingLvl)
-        self.mpDraw = mp.solutions.drawing_utils
+        self.mpDrawing = mp.solutions.drawing_utils
 
         self.points = [[0 for x in range(21)] for y in range(self.maxHands)] 
     
@@ -19,25 +19,27 @@ class HandTracker():
         x, y = c
         return self.points[x][y]
 
-    def __setitem__(self, c, v):
-        x, y = c
-        self.data[x][y] = v
-
     def findHands(self, img, draw = True):
-        imgRBG = cv.cvtColor(img, cv.COLOR_BGR2RGB)
-        results = self.hands.process(imgRBG)
-        # print(results.multi_hand_landmarks)
-
+        image = cv.cvtColor(img, cv.COLOR_BGR2RGB)
+        results = self.hands.process(image)
         if results.multi_hand_landmarks:
             for handLms in results.multi_hand_landmarks:
                 if(draw):
-                    self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
+                    self.mpDrawing.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
+                for id, lm in enumerate(handLms.landmark):
+                    h, w, c = img.shape
+                    cx, cy = int(lm.x * w), int(lm.y * h)
         return img
 
     def findPosition(self, img, handNo=0, draw = True):
         lmList = []
-        if results.multi_hand_landmarks:
-            for id, lm in enumerate(handLms.landmark):
+        if self.results.multi_hand_landmarks:
+            myHand = self.results.multi_hand_landmarks[handNo]
+            for id, lm in enumerate(myHand.landmark):
                 h, w, c = img.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
-                print(id, cx, cy)
+                # print(id, cx, cy)
+                lmList.append([id, cx, cy])
+                if draw:
+                    cv.circle(img, (cx, cy), 15, (36, 139, 251), cv.FILLED)
+        return lmList

@@ -37,23 +37,3 @@ while True:
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
-
-def main():
-    pTime = 0
-    cTime = 0
-
-    while True:
-        success, img = cap.read()
-
-
-        cTime = time.time()
-        fps = 1 / (cTime - pTime)
-        pTime = cTime
-
-        cv2.putText(img, str(int(fps)), (15, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (36, 139, 251), 3)
-
-        cv2.imshow("Image", img)
-        cv2.waitKey(1)
-
-if __name__ == "__main__":
-    main()
