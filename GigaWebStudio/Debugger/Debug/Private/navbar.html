@@ -1,0 +1,30 @@
+{{ Template Navbar }}
+    <div>
+        <nav class="navbar navbar-expand-md justify-content-between">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">{{ Render CW_Logo }}CosmicWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="visually-hidden">Toggle navigation</span>
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div id="main_navbar" class="collapse navbar-collapse justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="link.html">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+{{ End Template }}

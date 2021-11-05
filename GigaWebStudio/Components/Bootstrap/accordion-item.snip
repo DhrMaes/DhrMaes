@@ -1,0 +1,20 @@
+NAME:Accordion-Item
+SNIPPET_NAME:bs-accordion-item
+DESCRIPTION:Bootstrap accordion-item to add extra tabs to an existing accordion.
+HELP:https://getbootstrap.com/docs/5.1/components/accordion/
+TYPE:snippet,component
+SCOPE:HTML
+ICON:Accordion
+START:
+<div class="accordion-item">
+    <h2 class="accordion-header" id="${1:Header_ID}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${2:Body_ID}" aria-expanded="true" aria-controls="${2:Body_ID}">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="${2:Body_ID}" class="accordion-collapse collapse show" aria-labelledby="${1:Header_ID}" data-bs-parent="#${1:Accordion_ID}">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>

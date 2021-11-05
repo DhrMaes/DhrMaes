@@ -1,0 +1,34 @@
+NAME:Bootstrap Navbar With Search
+SNIPPET_NAME:bs-navbar-search
+DESCRIPTION:Fully featured Bootstrap navbar
+HELP:https://getbootstrap.com/docs/5.1/components/navbar/
+TYPE:snippet,component
+SCOPE:HTML
+ICON:Menu
+START:
+<nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Brand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#${1:Navbar_ID}" aria-controls="${1:Navbar_ID}" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="${1:Navbar_ID}" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="${2:Link_1}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="${3:Link_2}">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="${4:Link_3}">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>

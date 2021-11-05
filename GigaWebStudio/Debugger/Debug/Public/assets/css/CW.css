@@ -1,0 +1,19 @@
+.CW-logo {
+  opacity: 1;
+  fill-opacity: 1;
+  stroke: none;
+  paint-order: stroke fill markers;
+  filter: url(#a);
+}
+
+.CW-logo.primary {
+  fill: #f60;
+}
+
+.CW-logo.secondary {
+  fill: #fff;
+}
+
+.CW-logo.center {
+  fill: #000;
+}
